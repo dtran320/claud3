@@ -20,24 +20,30 @@ When you ask Claude to visualize data, this skill:
 
 ## Installation
 
-Add the marketplace, then install the plugin:
+```bash
+npx skills add dtran320/claud3
+```
 
+<details>
+<summary>Alternative installation methods</summary>
+
+**As a Claude Code plugin:**
 ```
 /plugin marketplace add dtran320/claud3
 /plugin install d3-viz@claud3
 ```
 
-Or test locally by cloning:
-
+**Test locally:**
 ```bash
 git clone https://github.com/dtran320/claud3.git
 claude --plugin-dir ./claud3
 ```
+</details>
 
 ## Usage
 
 ```
-/claud3:d3-viz
+/d3-viz
 ```
 
 Or just ask Claude to visualize data — the skill triggers on keywords like "visualize", "chart", "plot", "graph", or "explore data".
