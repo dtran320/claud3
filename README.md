@@ -20,14 +20,24 @@ When you ask Claude to visualize data, this skill:
 
 ## Installation
 
+Add the marketplace, then install the plugin:
+
 ```
-/install-plugin flowclub/d3-viz
+/plugin marketplace add dtran320/claud3
+/plugin install d3-viz@claud3
+```
+
+Or test locally by cloning:
+
+```bash
+git clone https://github.com/dtran320/claud3.git
+claude --plugin-dir ./claud3
 ```
 
 ## Usage
 
 ```
-/d3-viz
+/claud3:d3-viz
 ```
 
 Or just ask Claude to visualize data — the skill triggers on keywords like "visualize", "chart", "plot", "graph", or "explore data".

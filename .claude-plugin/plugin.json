@@ -1,6 +1,7 @@
 {
   "name": "d3-viz",
   "description": "Creates D3.js data visualizations using Tufte principles — chart selection by data question, direct labels, annotations, dark theme, and optional playground mode for exploration",
+  "version": "1.0.0",
   "author": {
     "name": "flowclub"
   }

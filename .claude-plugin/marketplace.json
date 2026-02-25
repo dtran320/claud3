@@ -1,0 +1,17 @@
+{
+  "name": "claud3",
+  "owner": {
+    "name": "flowclub"
+  },
+  "metadata": {
+    "description": "D3.js data visualization plugin for Claude Code"
+  },
+  "plugins": [
+    {
+      "name": "d3-viz",
+      "source": ".",
+      "description": "Creates D3.js data visualizations using Tufte principles — chart selection by data question, direct labels, annotations, dark theme, and optional playground mode for exploration",
+      "version": "1.0.0"
+    }
+  ]
+}
